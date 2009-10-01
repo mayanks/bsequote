@@ -1,0 +1,18 @@
+= BseQuote =
+
+== Introduction ==
+This gem helps you download the stock details of a particular scrip from http://bseindia.com and provide you in a hash format which can be easily consumed in your application.
+
+== Installation ==
+
+== Git Repository ==
+
+== Usage == 
+The test directory contains a test application called foo.rb which demonstrates how to use this gem. Essentially you would need to do the following in your application to use this gem
+
+require 'rubygems'
+require 'bsequote'
+
+include BseQuote
+
+sq = quote('507685') # this is the scrip code for Wipro
